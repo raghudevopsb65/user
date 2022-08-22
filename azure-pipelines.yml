@@ -1,0 +1,19 @@
+trigger:
+- main
+
+pool: D65
+
+variables:
+  COMPONENT: user
+
+
+resources:
+  repositories:
+    - repository: templates
+      type: github
+      name: raghudevopsb65/roboshop-azure-devops-templates
+      endpoint: raghudevopsb65
+
+stages:
+- template: nodejs.yml@templates
+
