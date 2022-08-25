@@ -1,6 +1,11 @@
 #trigger:
 #- main
 
+trigger:
+  branches:
+    exclude:
+    - *
+
 pool: D65
 
 variables:
