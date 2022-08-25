@@ -7,5 +7,10 @@ ingress:
   scheme: null
 
 configMap:
-  enabled: false
+  enabled: true
+  data:
+    DOCUMENTDB: "true"
+    MONGO_URL: "mongodb://admin1:RoboShop1234@roboshop-prod-docdb-docdb.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com
+   :27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
+
 
