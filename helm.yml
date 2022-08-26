@@ -14,3 +14,9 @@ configMap:
 
 externalSecret:
   enabled: true
+
+hpa:
+  min: 2
+  max: 10
+  cpuAvg: 80
+
