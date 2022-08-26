@@ -10,7 +10,6 @@ configMap:
   enabled: true
   data:
     DOCUMENTDB: "true"
-    MONGO_URL:
     REDIS_HOST: roboshop-prod-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com
 
 externalSecret:
